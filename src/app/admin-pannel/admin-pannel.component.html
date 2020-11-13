@@ -1,0 +1,20 @@
+<router-outlet name = 'nav'></router-outlet>
+<div class="row">
+    <div class="col-sm-9">
+        <div>
+            <router-outlet name="search"></router-outlet>
+        </div>
+        <div class="container">
+            <router-outlet></router-outlet>
+        </div>
+        
+    </div>
+    <div class="col-sm-3">
+        <div class="sidebar">
+            <router-outlet name="setRole"></router-outlet>
+        </div>
+        <div class="sidebar">
+            <router-outlet name="confirm"></router-outlet>
+        </div>
+    </div>
+</div>
